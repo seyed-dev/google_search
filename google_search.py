@@ -35,7 +35,7 @@ def scrape_google(query):
 def get_results(query):
     
     query = urllib.parse.quote_plus(query)
-    response = get_source("https://www.google.co.uk/search?q=" + query)
+    response = get_source("https://www.google.com/search?q=" + query)
     
     return response
 
